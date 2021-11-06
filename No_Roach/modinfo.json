@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "no_roach",
+    "name": "Roach-B-Gone",
+	"authors": [ "Magik" ],
+    "description": "Disables giant roaches and variants.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [ "mon_skittering_plague", "mon_plague_nymph", "mon_plague_vector", "mon_giant_cockroach", "mon_giant_cockroach_nymph", "mon_pregnant_giant_cockroach" ]
+  }
+]
